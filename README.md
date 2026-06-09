@@ -2,18 +2,6 @@
 
 > Multi-language programming fundamentals repository — exercises and core concepts in Python, JavaScript, TypeScript, Java, Go, and Bash, organized for progressive learning across the sxiks ecosystem.
 
-## Repository Rename Required
-
-This repository was originally created as `programing-fundamentals` (missing one `m`).
-
-The correct name is:
-
-```text
-programming-fundamentals
-```
-
-See the [Repository Rename](#repository-rename) section for the complete migration procedure.
-
 ---
 
 # Overview
