@@ -1,1 +1,1 @@
-# python/fundamentals\nContent coming soon.
+# python/fundamentals\nContent coming soon

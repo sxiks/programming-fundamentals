@@ -1,1 +1,1 @@
-# javascript/exercises\nContent coming soon.
+# javascript/exercises\nContent coming soon

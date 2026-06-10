@@ -1,1 +1,1 @@
-# java/exercises\nContent coming soon.
+# java/exercises\nContent coming soon

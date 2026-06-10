@@ -1,1 +1,1 @@
-# go/fundamentals\nContent coming soon.
+# go/fundamentals\nContent coming soon

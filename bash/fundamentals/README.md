@@ -1,1 +1,1 @@
-# bash/fundamentals\nContent coming soon.
+# bash/fundamentals\nContent coming soon

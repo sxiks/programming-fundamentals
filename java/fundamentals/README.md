@@ -1,1 +1,1 @@
-# java/fundamentals\nContent coming soon.
+# java/fundamentals\nContent coming soon

@@ -1,1 +1,1 @@
-# bash/exercises\nContent coming soon.
+# bash/exercises\nContent coming soon

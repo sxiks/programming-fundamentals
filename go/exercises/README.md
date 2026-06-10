@@ -1,1 +1,1 @@
-# go/exercises\nContent coming soon.
+# go/exercises\nContent coming soon
