@@ -1,23 +1,87 @@
-# Node.js (JS/TS)
+# ==============================================================================
+# MONOREPO GITIGNORE: FUNDAMENTOS DE PROGRAMACIÓN
+# Lenguajes: Python, Node.js (JS/TS), Java, Go, Bash
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. SISTEMAS OPERATIVOS Y EDITORES (IDE)
+# ------------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ------------------------------------------------------------------------------
+# 2. VARIABLES DE ENTORNO Y SECRETOS (NUNCA SUBIR)
+# ------------------------------------------------------------------------------
+.env
+.env.*
+*.pem
+*.key
+
+# ------------------------------------------------------------------------------
+# 3. NODE.JS (JavaScript / TypeScript)
+# ------------------------------------------------------------------------------
+# Dependencias
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Compilados TypeScript y Builds
 dist/
 build/
+out/
+.tscache/
 
-# Python
+# ------------------------------------------------------------------------------
+# 4. PYTHON
+# ------------------------------------------------------------------------------
+# Compilados de bytecode
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Entornos Virtuales (Locales)
 venv/
 env/
-.pytest_cache/
+.venv/
+.env/
 
-# Java
+# Herramientas de Pruebas y Tipado
+.pytest_cache/
+.mypy_cache/
+.tox/
+coverage.xml
+
+# ------------------------------------------------------------------------------
+# 5. JAVA
+# ------------------------------------------------------------------------------
+# Clases compiladas
 *.class
+
+# Empaquetados
 *.jar
 *.war
-target/
-.idea/
+*.ear
 
-# Entornos y SO
-.env
-.DS_Store
+# Directorios de compilación (Maven / Gradle)
+target/
+build/
+.gradle/
+
+# ------------------------------------------------------------------------------
+# 6. GO (Golang)
+# ------------------------------------------------------------------------------
+# Binarios compilados
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Archivos de test compilados
+*.test
