@@ -32,7 +32,7 @@ if __name__ == "__main__":
     curso2 = Curso("Base de datos")
     curso3 = Curso("Machine learning")
 
-    # Creación de curso
+    # Creación de estudiante
     estudiante1 = Estudiante("Carlos Gomez")
 
     # Inscripciones

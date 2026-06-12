@@ -1,6 +1,6 @@
 # Código para ilustrar la DEPENDENCIA entre clases.
 
-class BaseDatos:    
+class BaseDatos:
     def conectar(self):
         return "Conexión establecida con la base de datos"
         
