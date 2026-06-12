@@ -32,8 +32,6 @@ print(calcular_puntos(15000, False))  # ¿Cuánto da?
 print(calcular_puntos(15000, True))   # ¿Cuánto da?
 
 print("==============================")
-print("==============================")
-print("==============================")
 
 def calcular_envio (total_pedido):
     if total_pedido < 100000:
@@ -54,8 +52,6 @@ def resumen_pedido(precio_unitario, cantidad):
 print(resumen_pedido(30000, 2))
 print(resumen_pedido(60000, 2))
 
-print("==============================")
-print("==============================")
 print("==============================")
 
 

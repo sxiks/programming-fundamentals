@@ -1,6 +1,4 @@
-"""
-Module to illustrate ASSOCIATION between classes in Python.
-"""
+# Código para ilustrar la relación de ASOCIACIÓN entre clases.
 
 class Curso:
     def __init__(self, titulo):
@@ -13,7 +11,7 @@ class Curso:
 class Estudiante:
     def __init__(self, nombre):
         self.nombre = nombre
-        self.cursos = [] # Association with Curso (plural, as it is a list)
+        self.cursos = [] # Asociación con Curso
 
     def inscribirse(self, curso):
         self.cursos.append(curso)
@@ -27,20 +25,20 @@ class Estudiante:
                 print(f"- {curso.titulo}")
 
 
-# Main program
+# Programa Principal
 if __name__ == "__main__":
-    # Course creation
+    # Creación de curso
     curso1 = Curso("Programacion orientada a objetos")
     curso2 = Curso("Base de datos")
     curso3 = Curso("Machine learning")
 
-    # Student creation (instance with lowercase, Class with uppercase)
+    # Creación de curso
     estudiante1 = Estudiante("Carlos Gomez")
 
-    # Enrollments
+    # Inscripciones
     estudiante1.inscribirse(curso1)
     estudiante1.inscribirse(curso2)
     estudiante1.inscribirse(curso3)
 
-    # Show enrolled courses
+    # Mostrar cursos del estudiante
     estudiante1.mostrar_cursos()
