@@ -1,6 +1,7 @@
 # Código para ilustrar la relación de COMPOSICIÓN entre clases.
 
-class Aula:
+class Aula: # Molde para Aulas
+    # Al crearse se exige el codigo y capacidad
     def __init__(self, codigo, capacidad):
         self.codigo = codigo
         self.capacidad = capacidad
@@ -13,7 +14,8 @@ class Aula:
         print(f"Aula {self.codigo} eliminada.")
 
 
-class Escuela:
+class Escuela: # Molde para Escuela
+    # Al nacer se exige el nombre
     def __init__(self, nombre):
         self.nombre = nombre
 
@@ -33,4 +35,13 @@ class Escuela:
             aula.mostrar_info()
 
     def __del__(self):
-        print(f"Escuela {self.nombre} eliminada.")
+        print(f"\nEscuela {self.nombre} eliminada.")
+
+
+# Programa Principal
+if __name__ == "__main__":
+    # Creacion de la escuela
+    escuela_01 = Escuela("SENA")
+    
+    # Mostrar aulas
+    escuela_01.mostrar_aulas()
