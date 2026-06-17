@@ -1,12 +1,14 @@
 # programming-fundamentals
 
-> Multi-language programming fundamentals repository — exercises and core concepts in Python, JavaScript, TypeScript, Java, Go, and Bash, organized for progressive learning across the sxiks ecosystem.
+> Progressive programming fundamentals repository — built primarily in Python, with JavaScript as a secondary language. TypeScript, Java, Go, and Bash are part of the long-term vision but remain future work. Comparing languages is a secondary benefit of this approach, not its goal.
 
 ---
 
 # Overview
 
-This repository documents the learning journey through programming fundamentals across multiple languages.
+This repository documents a progressive journey through programming fundamentals, built primarily in **Python**, with **JavaScript** as a secondary language. TypeScript, Java, Go, and Bash are part of the long-term vision for this repository, but work on them has not started yet.
+
+The order in which concepts are introduced follows a single source of truth: [`docs/learning-path.md`](docs/learning-path.md). Every example and exercise in this repository can be traced back to one of the steps defined there.
 
 Each language has its own top-level folder containing two primary subdirectories:
 
@@ -15,20 +17,17 @@ Each language has its own top-level folder containing two primary subdirectories
 - `exercises/` — practical exercises and challenges
   
 
-The multi-language approach is intentional. Studying the same concepts across different languages helps build a deeper understanding of:
+Studying the same fundamentals in more than one language is a natural side effect of this approach, and it does help build a deeper understanding of the underlying concepts — Variables, Functions, Loops, Conditionals, Data structures — rather than a single syntax. That said, this is a secondary benefit of progressive learning, not the organizing principle of the repository. The goal is to build solid fundamentals, not to produce a side-by-side language comparison.
 
-- Variables
-  
-- Functions
-  
-- Loops
-  
-- Conditionals
-  
-- Data structures
-  
+## Language Priority
 
-Rather than learning a single syntax, the learner develops an understanding of the underlying programming concepts.
+| Status | Languages |
+| --- | --- |
+| Primary | Python |
+| Secondary | JavaScript |
+| Future — not yet started | TypeScript, Java, Go, Bash |
+
+Work on the future languages will not begin until Python and JavaScript are consolidated.
 
 This repository is a **learning repository**, not a template.
 
@@ -166,7 +165,9 @@ programming-fundamentals/
 │   └── fundamentals/
 │
 ├── docs/
-│   └── architecture-notes.md
+│   ├── README.md
+│   ├── learning-path.md
+│   └── study-guide.md
 │
 └── README.md
 ```
@@ -181,7 +182,7 @@ programming-fundamentals/
 | `javascript/` | Interactive web runtime programming |
 | `python/` | High-level scripting and application development |
 | `typescript/` | Type-safe application development |
-| `docs/` | Shared architecture and study notes |
+| `docs/` | Learning path, navigation guides, and shared study notes |
 
 ---
 
@@ -373,73 +374,6 @@ Bash 4.0+
 chmod +x bash/fundamentals/01-variables.sh
 
 ./bash/fundamentals/01-variables.sh
-```
-
----
-
-# Repository Rename
-
-This repository was mistakenly created with the name:
-
-```text
-programing-fundamentals
-```
-
-The correct name is:
-
-```text
-programming-fundamentals
-```
-
-to comply with ecosystem naming standards.
-
-## Step-by-Step Rename Execution Instructions
-
-Follow these exact commands.
-
-### 1. Navigate to the Local Repository
-
-```bash
-cd ~/path/to/your/projects/programing-fundamentals
-```
-
-### 2. Rename the GitHub Repository
-
-Open GitHub:
-
-1. Go to repository settings.
-  
-2. Scroll to the Danger Zone section.
-  
-3. Rename the repository to:
-  
-
-```text
-programming-fundamentals
-```
-
-### 3. Update the Local Remote URL
-
-Replace the username with your own GitHub username.
-
-```bash
-git remote set-url origin https://github.com/your-github-username/programming-fundamentals.git
-```
-
-### 4. Verify the Change
-
-```bash
-git remote -v
-```
-
-### 5. Rename the Local Folder (Optional)
-
-```bash
-cd ..
-
-mv programing-fundamentals programming-fundamentals
-
-cd programming-fundamentals
 ```
 
 ---
