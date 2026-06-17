@@ -6,10 +6,26 @@
 # ------------------------------------------------------------------------------
 # 1. SISTEMAS OPERATIVOS Y EDITORES (IDE)
 # ------------------------------------------------------------------------------
+# macOS
 .DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
 Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# JetBrains
 .idea/
+
+# Visual Studio Code
 .vscode/
+
+# Vim
 *.swp
 *.swo
 
@@ -43,6 +59,7 @@ out/
 # Compilados de bytecode
 __pycache__/
 *.py[cod]
+*.pyo
 *$py.class
 
 # Entornos Virtuales (Locales)
