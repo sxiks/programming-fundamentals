@@ -437,12 +437,12 @@ chmod +x bash/fundamentals/01-variables.sh
 
 | Language | Fundamentals Started | Exercises Done | Notes |
 | --- | --- | --- | --- |
-| Python | Planned | 2 exercises completed | Fundamentals structure pending |
-| JavaScript | Started | 4 exercises (01-intro) | More chapters to add |
-| TypeScript | Not yet | 0   | After JavaScript is solid |
-| Java | Not yet | 0   | Planned for SENA Java module |
-| Bash | Not yet | 0   | Planned for Linux/DevOps module |
-| Go  | Not yet | 0   | Future phase |
+| Python | Completo — 8/8 pasos de `docs/learning-path.md` | 5 ejercicios (3 en `01-intro`, 2 en `02-challenges`) | Lenguaje principal |
+| JavaScript | Completo — 8/8 pasos de `docs/learning-path.md` | 5 ejercicios (3 en `01-intro`, 2 en `02-challenges`) | Lenguaje secundario |
+| TypeScript | Not yet | 0   | Futuro — sin fecha definida |
+| Java | Not yet | 0   | Futuro — sin fecha definida |
+| Bash | Not yet | 0   | Futuro — sin fecha definida |
+| Go  | Not yet | 0   | Futuro — sin fecha definida |
 
 **Last updated:** *(update this date when you edit the table)*
 
