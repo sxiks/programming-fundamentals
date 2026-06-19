@@ -1,26 +1,26 @@
 # Learning Path
 
-Esta es la ruta de aprendizaje oficial de `programming-fundamentals`. Define el único orden válido en el que se construyen los fundamentos del repositorio, basado en la Parte I de la guía de referencia del proyecto (Fundamentos Esenciales).
+This is the official learning path for `programming-fundamentals`. It defines the only valid order in which the repository fundamentals are built, based on Part I of the project reference guide (Essential Fundamentals).
 
-Todo ejemplo, ejercicio y documento de este repositorio debe poder mapearse a uno de los ocho pasos siguientes. Ningún contenido puede existir fuera de esta progresión.
+Every example, exercise, and document in this repository must be mappable to one of the following eight steps. No content can exist outside this progression.
 
-## Alcance
+## Scope
 
-Esta ruta cubre exclusivamente fundamentos esenciales de programación. Herramientas, conceptos intermedios, calidad y diseño, datos y comunicación, prácticas profesionales, e inteligencia artificial pertenecen a etapas futuras del ecosistema y no forman parte de esta ruta.
+This path exclusively covers essential programming fundamentals. Tools, intermediate concepts, quality and design, data and communication, professional practices, and artificial intelligence belong to future stages of the ecosystem and are not part of this path.
 
-## Los Ocho Pasos
+## The Eight Steps
 
-| # | Paso | Depende de | Dificultad | Sub-conceptos |
-| --- | --- | --- | --- | --- |
-| 01 | Sintaxis | — | Beginner | — |
-| 02 | Variables | 01 | Beginner | — |
-| 03 | Tipos de Datos | 02 | Beginner | Tipos primitivos, Tipos compuestos |
-| 04 | Operadores | 03 | Beginner | Aritméticos, Comparación, Lógicos, Asignación |
-| 05 | Estructuras de Control | 04 | Beginner | Condicionales, Bucles, Control de flujo |
-| 06 | Funciones | 05 | Beginner–Intermediate | Declaración y parámetros, Retorno, Scope |
-| 07 | Estructuras de Datos | 03, 06 | Intermediate | Arrays/Listas, Diccionarios/Mapas, Conjuntos |
-| 08 | Paradigmas Básicos | 06, 07 | Intermediate | Imperativo, Orientado a Objetos, Funcional (introducción básica) |
+| #  | Step                | Depends On | Difficulty           | Sub-concepts                                      |
+|----|---------------------|------------|----------------------|--------------------------------------------------|
+| 01 | Syntax              | —          | Beginner             | —                                                |
+| 02 | Variables           | 01         | Beginner             | —                                                |
+| 03 | Data Types          | 02         | Beginner             | Primitive types, Composite types                 |
+| 04 | Operators           | 03         | Beginner             | Arithmetic, Comparison, Logical, Assignment       |
+| 05 | Control Structures  | 04         | Beginner             | Conditionals, Loops, Flow control                 |
+| 06 | Functions           | 05         | Beginner–Intermediate | Declaration and parameters, Return, Scope        |
+| 07 | Data Structures     | 03, 06     | Intermediate         | Arrays/Lists, Dictionaries/Maps, Sets            |
+| 08 | Basic Paradigms     | 06, 07     | Intermediate         | Imperative, Object-Oriented, Functional (basic introduction) |
 
-## Regla de Mapeo
+## Mapping Rule
 
-Ningún archivo de `fundamentals/` o `exercises/`, en ningún lenguaje, puede existir sin corresponder a exactamente uno de estos ocho pasos. Si un ejemplo no puede ubicarse en esta lista, no pertenece a este repositorio en su forma actual.
+No file in `fundamentals/` or `exercises/`, in any language, can exist without corresponding to exactly one of these eight steps. If an example cannot be placed within this list, it does not belong in this repository in its current form.
